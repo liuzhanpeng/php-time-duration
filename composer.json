@@ -1,0 +1,27 @@
+{
+    "name": "lzpeng/time-duration",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "liuzhanpeng",
+            "email": "liuzhanpeng@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Lzpeng\\TimeDuration\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Lzpeng\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
